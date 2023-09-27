@@ -26,12 +26,6 @@
     padding: 0px;
 }
 
-body {
-   
-    height: 100vh;
-    background: black url(../imagens/background2-p.jpg) center center no-repeat fixed;
-    background-size: cover;
-}
 
 header {
     
@@ -43,6 +37,7 @@ header > h1 {
     text-align: center;
     color: white;
     text-shadow: 2px 2px 2px var(--cor0);
+    padding: 35px;
 }
 
 i#burguer {
