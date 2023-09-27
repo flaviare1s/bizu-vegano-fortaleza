@@ -2,7 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
 
 
 :root {
@@ -15,7 +16,7 @@
     --cor6: #CC1B1F;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-titulo-principal: 'Kaushan Script', cursive; 
+    --fonte-titulo-principal: 'Marck Script', cursive; 
     --fonte-destaque: 'Sriracha', cursive;
 }
 
