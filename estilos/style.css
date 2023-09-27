@@ -1,2 +1,15 @@
 @charset "UTF-8";
 
+:root {
+    --cor0: #274D12;
+    --cor1: #41801D;;
+    --cor2: #68954F;
+    --cor3: #8FCC6C;
+    --cor4: #69CC2F;
+    --cor5: #80171A;
+    --cor6: #CC1B1F;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-titulo-principal: ;
+    --fonte-destaque: ;
+}
