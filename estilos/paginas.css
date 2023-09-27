@@ -99,7 +99,7 @@ main > p {
 
 div.lojas {
     background-color: #8fcc6cb7;
-    padding: 10px 0px;
+    padding: 10px;
     border: 2px solid var(--cor1);
     border-radius: 10px;
     margin-bottom: 20px;
@@ -112,6 +112,7 @@ div.lojas > h3 {
 
 div.lojas > p {
     line-height: 1.2em;
+    padding: 5px;
 }
 
 div.lojas a {
