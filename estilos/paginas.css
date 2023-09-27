@@ -119,3 +119,8 @@ div.lojas a {
     color: black;
     font-weight: bolder;
 }
+
+div.lojas a:hover {
+    text-decoration: underline;
+    font-weight: normal;
+}
