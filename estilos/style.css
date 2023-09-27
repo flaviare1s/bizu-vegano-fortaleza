@@ -66,11 +66,10 @@ menu > ul > li > a:hover {
 }
 
 body {
-    width: 100vw;
+   
     height: 100vh;
-    background: black url(../imagens/background-peq.jpg) no-repeat;
+    background: black url(../imagens/background-peq.jpg) center center no-repeat fixed;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 h1 {
