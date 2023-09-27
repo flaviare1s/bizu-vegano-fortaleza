@@ -87,3 +87,35 @@ main {
     text-indent: 30px;
     text-align: justify;
 }
+
+main > p {
+    color: black;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-align: justify;
+    line-height: 1.2em;
+    padding: 10px;
+}
+
+div.lojas {
+    background-color: #8fcc6cb7;
+    padding: 10px 0px;
+    border: 2px solid var(--cor1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+div.lojas > h3 {
+    text-align: center;
+    padding: 5px;
+}
+
+div.lojas > p {
+    line-height: 1.2em;
+}
+
+div.lojas a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
