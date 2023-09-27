@@ -36,12 +36,12 @@ menu a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: var(--cor1);
+    background-color: #41801da6;
     color: white;
 }
 
 menu a:hover {
-    background-color: var(--cor0);
+    background-color: #274d12ab;
 }
 
 body {
