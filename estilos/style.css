@@ -109,3 +109,10 @@ main > section > p {
     font-weight: bold;
     margin-bottom: 15px;
 }
+
+footer {
+    background-color: #274d12ab;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

@@ -122,3 +122,10 @@ div.lojas a:hover {
     text-decoration: underline;
     font-weight: normal;
 }
+
+footer {
+    background-color: #274d12ab;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
