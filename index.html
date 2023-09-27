@@ -13,8 +13,8 @@
     
     <header>
         <h1>Bizu Vegano</h1>
-        <i id="burguer" class="material-icons">menu</i>
-        <menu>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="menu">
             <a href="#">Restaurantes Veganos/Vegetarianos</a>
             <a href="#">Confeitarias Veganas</a>
             <a href="#">Onde comer</a>
@@ -40,5 +40,14 @@
             <p><strong>Se alimente conscientemente!</strong></p>
         </section>
     </main>
+    <script>
+        function clickMenu() {
+                if (menu.style.display == 'block') {
+                    menu.style.display = 'none'
+                } else {
+                    menu.style.display = 'block'
+                }
+        }
+    </script>
 </body>
 </html>
