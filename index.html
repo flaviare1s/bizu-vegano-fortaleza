@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="estilos/media-queries.css">
 
 </head>
-<body>
+<body onresize="mudouTamanho">
     
     <header>
         <h1>Bizu Vegano</h1>
@@ -44,6 +44,15 @@
         </section>
     </main>
     <script>
+        functionmudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+
         function clickMenu() {
                 if (menu.style.display == 'block') {
                     menu.style.display = 'none'
