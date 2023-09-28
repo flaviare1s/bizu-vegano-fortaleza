@@ -126,6 +126,7 @@ div.lojas a {
 
 div.lojas li {
     list-style-type: none;
+    line-height: 1.5em;
 }
 
 div.lojas a:hover {
