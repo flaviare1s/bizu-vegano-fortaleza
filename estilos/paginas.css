@@ -107,6 +107,12 @@ div.lojas > h3 {
     padding: 5px;
 }
 
+div.lojas > h2 {
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    padding: 5px;
+}
+
 div.lojas > p {
     line-height: 1.2em;
     padding: 5px;
@@ -116,6 +122,10 @@ div.lojas a {
     text-decoration: none;
     color: black;
     font-weight: bolder;
+}
+
+div.lojas li {
+    list-style-type: none;
 }
 
 div.lojas a:hover {
