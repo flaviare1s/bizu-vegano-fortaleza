@@ -36,6 +36,23 @@ header {
     
 }
 
+header > h1 {
+    font-family: var(--fonte-titulo-principal);
+    font-size: 5em;
+    font-weight: normal;
+    text-align: center;
+    color: var(--cor3);
+    padding: 20px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.562);
+}
+
+header > h2 {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px var(--cor0);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 i#burguer {
     display: block;
     background-color: #274d12c9;
@@ -73,15 +90,7 @@ menu > ul > li > a:hover {
     transition: 1s;
 }
 
-h1 {
-    font-family: var(--fonte-titulo-principal);
-    font-size: 5em;
-    font-weight: normal;
-    text-align: center;
-    color: var(--cor3);
-    padding: 20px;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.562);
-}
+
 
 main {
     background-color: rgba(255, 255, 255, 0.507);
