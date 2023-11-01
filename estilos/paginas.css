@@ -140,3 +140,9 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+h1.titulos-categorias {
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    color: var(--cor0);
+}
