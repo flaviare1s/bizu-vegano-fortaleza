@@ -32,21 +32,30 @@ body {
     background-size: cover;
 }
 
-header {
-    
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-header > h1 {
+img {
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #274d12c9;
+    margin: 20px 30px 0px 30px;
+}
+
+.titles-container > h1 {
     font-family: var(--fonte-titulo-principal);
     font-size: 5em;
     font-weight: normal;
     text-align: center;
     color: var(--cor3);
-    padding: 20px;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.562);
 }
 
-header > h2 {
+.titles-container > h2 {
     color: #ffffff;
     text-shadow: 1px 1px 1px var(--cor0);
     text-align: center;

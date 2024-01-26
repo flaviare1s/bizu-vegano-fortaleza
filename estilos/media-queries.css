@@ -18,3 +18,17 @@
     main {
         width: 700px;
     }
+    
+    .header-container {
+        flex-direction: row;
+        padding-bottom: 20px;
+    }
+    
+    img {
+        width: 150px;
+    }
+
+    .titles-container {
+        margin-top: 30px;
+    }
+}
