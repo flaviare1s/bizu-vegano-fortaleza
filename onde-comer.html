@@ -1,302 +1,1078 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Onde comer?</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <link rel="stylesheet" href="estilos/paginas.css">
-    <link rel="stylesheet" href="estilos/media-queries.css">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos/paginas.css" />
+    <link rel="stylesheet" href="estilos/media-queries.css" />
     <style>
-        body {
-            height: 100vh;
-            background: black url(imagens/background-onde-comer.jpg) center center no-repeat fixed;
-            background-size: cover;
-        }
+      body {
+        height: 100vh;
+        background: black url(imagens/background-onde-comer.jpg) center center
+          no-repeat fixed;
+        background-size: cover;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Onde comer?</h1>
-        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
-        <menu id="menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="restaurantes.html">Restaurantes</a></li>
-                <li><a href="lanchonetes.html">Lanchonetes</a></li>
-                <li><a href="confeitarias.html">Confeitarias</a></li>
-                <li><a href="emporios.html">Empórios</a></li>
-                <li><a href="queijos.html">Queijarias</a></li>
-                <li><a href="sorvetes.html">Sorvetes</a></li>
-                <li><a href="cafes.html">Cafés</a></li>
-                <li><a href="festas.html">Festas</a></li>
-                <li><a href="onde-comer.html">Onde comer?</a></li>
-                <li><a href="dicas.html">Dicas</a></li>
-                <li><a href="cosmeticos.html">Cosméticos</a></li>
-                <li><a href="canais.html">Canais YouTube</a></li>
-            </ul>
-        </menu>
+      <h1>Onde comer?</h1>
+      <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+      <menu id="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="restaurantes.html">Restaurantes</a></li>
+          <li><a href="lanchonetes.html">Lanchonetes</a></li>
+          <li><a href="confeitarias.html">Confeitarias</a></li>
+          <li><a href="emporios.html">Empórios</a></li>
+          <li><a href="queijos.html">Queijarias</a></li>
+          <li><a href="sorvetes.html">Sorvetes</a></li>
+          <li><a href="cafes.html">Cafés</a></li>
+          <li><a href="festas.html">Festas</a></li>
+          <li><a href="onde-comer.html">Onde comer?</a></li>
+          <li><a href="dicas.html">Dicas</a></li>
+          <li><a href="cosmeticos.html">Cosméticos</a></li>
+          <li><a href="canais.html">Canais YouTube</a></li>
+        </ul>
+      </menu>
     </header>
-    
-    <main>
-        <p>Nesta sessão listei, por categoria de comida, alguns estabelecimentos veganos e não veganos, que oferecem opções vegetarianas no cardápio.</p>
-        <p>Seja direcionado(a) ao Instagram da loja, ao clicar em cima do nome do estabelecimento.</p>
-        <div class="lojas">
-            <h2>Pizza & Calzone!</h2>
-            <ul>
-                <li><a href="https://instagram.com/bike_vegan?igshid=MzRlODBiNWFlZA==" target="_blank">Bike Vegan</a></li>
-                <li><a href="https://www.instagram.com/yognbake?igsh=MWV2OTNleXJ0M2o1Yg==" target="_blank">Yog'n'Bake</a></li>
-                <li><a href="https://instagram.com/forneriagaspar?igshid=MzRlODBiNWFlZA==" target="_blank">Forneria Gaspar</a></li>
-                <li><a href="https://instagram.com/afranio_napoletanpizza?igshid=YTQwZjQ0NmI0OA==" target="_blank">Afranio's Napoletan</a></li>
-                <li><a href="https://www.instagram.com/unapastaoficial?igsh=MTBnOTFldXg0MDR4cA==" target="_blank">Una Pasta</a></li>
-                <li><a href="https://instagram.com/pachamamacultural?igshid=MzRlODBiNWFlZA==" target="_blank">Pachamama</a></li>
-                <li><a href="https://www.instagram.com/emnomedapizza?igsh=bjk5b2U4bzYyZnhw" target="_blank">Em Nome da Pizza</a></li>
-                <li><a href="https://instagram.com/lafioritapizza?igshid=MzRlODBiNWFlZA==" target="_blank">La Fiorita</a></li>
-                <li><a href="https://instagram.com/govegandelivery?igshid=MzRlODBiNWFlZA==" target="_blank">GoVegan</a></li>
-                <li><a href="https://instagram.com/lajehead?igshid=MzRlODBiNWFlZA==" target="_blank">Laje Head</a></li>
-                <li><a href="https://instagram.com/vignolioficial?igshid=MzRlODBiNWFlZA==" target="_blank">Vignoli</a></li>
-                <li><a href="https://instagram.com/fornomorosi?igshid=MzRlODBiNWFlZA==" target="_blank">Morosi</a> (Opção no RioMar)</li>
-                <li><a href="https://instagram.com/dorearcacau?igshid=MzRlODBiNWFlZA==" target="_blank">Dorear</a> (Opção no RioMar)</li>
-                <li><a href="https://instagram.com/phasprodutosnaturais?igshid=MzRlODBiNWFlZA==" target="_blank">Phas</a></li>
-                <li><a href="https://instagram.com/nalu_pizzas?igshid=MzRlODBiNWFlZA==" target="_blank">Nalu</a></li>
-                <li><a href="https://instagram.com/ilcapopizza?igshid=MzRlODBiNWFlZA==" target="_blank">Il Capo</a></li>
-                <li><a href="https://www.instagram.com/mattarellopizza?igsh=MXJ5ZTVyZjhiYTcxNQ==" target="_blank">Mattarello Pizza</a></li>
-                <li><a href="https://www.instagram.com/minikalzone?igsh=cHBoZXU4ZXoyazRr" target="_blank">Mini Kalzone</a> (Tem em vários shoppings)</li>
 
-            </ul>    
-        </div>
-        <div class="lojas">
-            <h2>Sushi & Comida Oriental!</h2>
-            <ul>
-                <li><a href="https://instagram.com/makisushibar?igshid=MzRlODBiNWFlZA==" target="_blank">Maki Sushi</a></li>
-                <li><a href="https://instagram.com/sushi.vibe?igshid=MzRlODBiNWFlZA==" target="_blank">Casa Sushi Vibe</a></li> 
-                <li><a href="https://www.instagram.com/restauranteryori?igsh=eWJlbXFrZWYxdWlv" target="_blank">Ryori</a> (Opção no Iguatemi)</li> 
-                <li><a href="https://instagram.com/chinatownfortaleza?igshid=MWs3aHI3bDg0bThqbw==" target="_blank">Chinatown</a></li>
-                <li><a href="https://www.instagram.com/yakiway?igsh=MXJ5bGViamljNzJtNA==" target="_blank">Yaki Way</a></li>
-                <li><a href="https://www.instagram.com/casaryusushi?igsh=MTk0a3BpMHFtcjlreQ==" target="_blank">Ryu</a></li>
-                <li><a href="https://www.instagram.com/kofuku.br?igsh=bG81cHB4MmY3bWl1" target="_blank">Kofuku</a></li>
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Poke!</h2>
-            <ul>
-                <li><a href="https://www.instagram.com/bowlifood?igsh=dzNreW03Y29qeTg4" target="_blank">Bowli Food</a></li> 
-                <li><a href="https://www.instagram.com/mahalopoke?igsh=MTZ1aWszZDJidWFqbg==" target="_blank">Mahalo Poke</a> (Opção no Iguatemi e RioMar)</li> 
-                <li><a href="https://www.instagram.com/yakiway?igsh=MXJ5bGViamljNzJtNA==" target="_blank">Yaki Way</a></li>
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Not dog!</h2>
-            <ul>
-                <li><a href="https://instagram.com/bike_vegan?igshid=MzRlODBiNWFlZA==" target="_blank">Bike Vegan</a></li>
-                <li><a href="https://instagram.com/cafecultive?igshid=MzRlODBiNWFlZA==" target="_blank">Café Cultive</a></li>
-                <li><a href="https://www.instagram.com/heyjoefoodnbar?igsh=MXZkdmc3c3pnajE3OA==" target="_blank">Hey Joe</a></li>
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Lasanha!</h2>
-            <ul>
-                <li><a href="https://instagram.com/pachamamacultural?igshid=MzRlODBiNWFlZA==" target="_blank">Pachamama</a></li>
-                <li><a href="https://instagram.com/fornomorosi?igshid=MzRlODBiNWFlZA==" target="_blank">Morosi</a> (Opção no RioMar)</li>
-                <li><a href="https://instagram.com/pastificiogrigoline?igshid=MzRlODBiNWFlZA==" target="_blank">Pastifício Grigoline</a></li>
-                <li><a href="https://www.instagram.com/hortalicia?igsh=ZTJsNXFtNWd2OXdr" target="_blank">Hortalícia</a></li>   
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Massa!</h2>
-            <ul>
-                <li><a href="https://www.instagram.com/casulogastrobar?igsh=MWw2d2ZkN2R2YWJiYw==" target="_blank">Casulo</a></li>
-                <li><a href="https://instagram.com/tipo.cafe?igshid=YTQwZjQ0NmI0OA==" target="_blank">Tipo Café</a></li>
-                <li><a href="https://instagram.com/casabearestaurante?igshid=MzRlODBiNWFlZA==" target="_blank">Casa Beá</a></li>
-                <li><a href="https://instagram.com/cozinhamamma_lu?igshid=MzRlODBiNWFlZA==" target="_blank">Cozinha da Mamma Lu</a></li>
-                <li><a href="https://instagram.com/pastificiogrigoline?igshid=MzRlODBiNWFlZA==" target="_blank">Pastifício Grigoline</a></li>
-                <li><a href="https://www.instagram.com/vemquetamassa?igshid=YTQwZjQ0NmI0OA==" target="_blank">Tá Massa</a></li>  
-                <li><a href="https://instagram.com/nomarderosas?igshid=YTQwZjQ0NmI0OA==" target="_blank">Mar de Rosas</a></li> 
-                <li><a href="https://www.instagram.com/raizcozinhabrasileira?igsh=MXQzbWplazhzbzk1bg==" target="_blank">Raiz</a></li>
-                <li><a href="https://www.instagram.com/massadocheff_delivery?igsh=MTZ6MnBnNmk2azVrMw==" target="_blank">Massa do Cheff</a></li>
-                <li><a href="https://www.instagram.com/cafeteriaclubcafe?igsh=MW0zaWx5YjZjYTFwOQ==" target="_blank">Club Café</a> (Iguatemi, RioMar e aeroporto)</li>
-                <li><a href="https://www.instagram.com/spoleto_oficial?igsh=ZTl4NWl5a29vNnFu" target="_blank">Spoleto</a> (Tem em vários shoppings)</li>
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Pastel!</h2>
-            <ul>
-                <li><a href="https://instagram.com/govegandelivery?igshid=MzRlODBiNWFlZA==" target="_blank">GoVegan</a></li>
-                <li><a href="https://instagram.com/_sampastel?igshid=MzRlODBiNWFlZA==" target="_blank">Sampastel</a></li>
-                <li><a href="https://www.instagram.com/pastelleoficial?igsh=em5tYXQ5bHJiMXR5" target="_blank">Pastelle</a></li>
-                <li><a href="https://www.instagram.com/guanabarapastelaria?igsh=YmI2NzVzc2k0dmEz" target="_blank">Guanabara Pastelaria</a></li>   
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Coxinha!</h2>
-            <ul>
-                <li><a href="https://instagram.com/rangoverdeveg?igshid=MzRlODBiNWFlZA==" target="_blank">Rango Verde</a></li>
-                <li><a href="https://instagram.com/bike_vegan?igshid=MzRlODBiNWFlZA==" target="_blank">Bike Vegan</a></li>
-                <li><a href="https://instagram.com/lifecoxinharia?igshid=MzRlODBiNWFlZA==" target="_blank">Life Coxinharia</a></li> 
-                <li><a href="https://instagram.com/dorearcacau?igshid=MzRlODBiNWFlZA==" target="_blank">Dorear</a></li>
-                <li><a href="https://www.instagram.com/amordecafe_?igsh=bnBidTB2MDEyejdt" target="_blank">Amor de Café</a></li>  
-                <li><a href="https://www.instagram.com/sucrebrasil?igsh=dHYzNmVsc3J0NGNi" target="_blank">Sucré</a></li>
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Acarajé!</h2>
-            <ul>
-                <li><a href="https://instagram.com/malaguetta_restaurante_vegano?igshid=MzRlODBiNWFlZA==">Malaguetta</a></li>
-                <li><a href="https://instagram.com/acarajedamanu?igshid=MzRlODBiNWFlZA==">Acarajé da Manu</a></li>
-                <li><a href="https://instagram.com/acaraje_e_cia?igshid=MzRlODBiNWFlZA==">Acarajé & Cia</a></li>   
-                <li><a href="https://instagram.com/acaraje_da_adriana?igshid=MzRlODBiNWFlZA==" target="_blank">Acarajé da Adriana</a> (Opção na Beira Mar)</li>
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Hamburguer!</h2>
-            <ul>
-                <li><a href="https://www.instagram.com/xbloom_iguatemibosque?igsh=bjR0dzljYzQycHMy">XBloom</a> (Opção no Iguatemi)</li>
-                <li><a href="https://instagram.com/bike_vegan?igshid=MzRlODBiNWFlZA==">Bike Vegan</a></li>
-                <li><a href="https://instagram.com/lajehead?igshid=MzRlODBiNWFlZA==" target="_blank">Laje Haed</a></li>
-                <li><a href="https://instagram.com/govegandelivery?igshid=MzRlODBiNWFlZA==">GoVegan</a></li>
-                <li><a href="https://instagram.com/pachamamacultural?igshid=MzRlODBiNWFlZA==" target="_blank">Pachamama</a></li>
-                <li><a href="https://instagram.com/garagemburguerbar?igshid=MzRlODBiNWFlZA==">Garagem Burguer Bar</a></li>
-                <li><a href="https://instagram.com/vaniaburgers?igshid=YTQwZjQ0NmI0OA==" target="_blank">Vânia Burgers</a> (Opção no Dragão do Mar)</li>   
-                <li><a href="https://instagram.com/corafortaleza?igshid=MzRlODBiNWFlZA==" target="_blank">Cora</a></li>
-                <li><a href="https://instagram.com/owlbeerpub?igshid=MzRlODBiNWFlZA==" target="_blank">Owl Beer Pub</a></li>
-                <li><a href="https://www.instagram.com/orbitabluebar?igsh=MWN2emU3azZqejJ2cQ==" target="_blank">Órbita Blue</a> (Opção na Praia do Futuro)</li>
-                <li><a href="https://www.instagram.com/heyjoefoodnbar?igsh=MXZkdmc3c3pnajE3OA==" target="_blank">Hey Joe</a></li>
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Sanduíche & Wrap!</h2>
-            <ul>
-                <li><a href="https://www.instagram.com/cozinha.lamarca?igsh=bHQ0d2hlMWR2OTln" target="_blank">Cozinha Lamarca</a></li>
-                <li><a href="https://www.instagram.com/ventanaroseletejada?igsh=MTYzNzZxeHNzYms3bA==" target="_blank">Ventana</a></li>
-                <li><a href="https://instagram.com/tipo.cafe?igshid=YTQwZjQ0NmI0OA==" target="_blank">Tipo Café</a></li>
-                <li><a href="https://www.instagram.com/subwaybrasil?igsh=MXVsMGdidjdieTdlNw==" target="_blank">Subway</a> (Tem em vários shoppings)</li>   
-                <li><a href="https://www.instagram.com/restaurante_vitae?igsh=emVtd2s1Mjh2dXht">Vitaê</a></li>
-                <li><a href="https://www.instagram.com/maju_comidasaudavel?igsh=MWlsa3kweTVidnozaw==">Maju</a></li>
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Petiscos!</h2>
-            <ul>
-                <li><a href="https://instagram.com/pachamamacultural?igshid=MzRlODBiNWFlZA==" target="_blank">Pachamama</a></li>
-                <li><a href="https://instagram.com/lajehead?igshid=MzRlODBiNWFlZA==" target="_blank">Laje Haed</a></li>
-                <li><a href="https://www.instagram.com/cozinha.lamarca?igsh=bHQ0d2hlMWR2OTln" target="_blank">Cozinha Lamarca</a></li>
-                <li><a href="https://instagram.com/tipo.cafe?igshid=YTQwZjQ0NmI0OA==" target="_blank">Tipo Café</a></li>
-                <li><a href="https://instagram.com/verduracozinha?igshid=YTQwZjQ0NmI0OA==" target="_blank">Verdura Cozinha</a></li>
-                <li><a href="https://instagram.com/cravoecanelagastrobar?igshid=MzRlODBiNWFlZA==">Cravo & Canela Gastrobar</a> (Opção no Mercado dos Pinhões)</li>
-                <li><a href="https://instagram.com/aquitanda_ce?igshid=MzRlODBiNWFlZA==">A Quitanda</a></li>
-                <li><a href="https://instagram.com/garagemburguerbar?igshid=MzRlODBiNWFlZA==">Garagem Burguer Bar</a></li>   
-                <li><a href="https://instagram.com/casapatua?igshid=MzRlODBiNWFlZA==" target="_blank">Casa Patuá</a></li>
-                <li><a href="https://instagram.com/owlbeerpub?igshid=MzRlODBiNWFlZA==" target="_blank">Owl Beer Pub</a></li>
-                <li><a href="https://www.instagram.com/barracacabumba?igsh=NWZnY3ZnbmR5MnUy" target="_blank">Barraca Cabumba</a> (Opção na Praia do Futuro)</li>
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Strogonoff!</h2>
-            <ul>
-                <li><a href="https://instagram.com/verduracozinha?igshid=YTQwZjQ0NmI0OA==" target="_blank">Verdura Cozinha</a></li>
-                <li><a href="https://instagram.com/nusse.cafe?igshid=YTQwZjQ0NmI0OA==" target="_blank">Nüsse</a></li>
-                <li><a href="https://instagram.com/brasileirinhodelivery?igshid=YTQwZjQ0NmI0OA==">Brasileirinho Delivery</a></li> 
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Moqueca!</h2>
-            <ul>
-                <li><a href="https://www.instagram.com/barracacabumba?igsh=NWZnY3ZnbmR5MnUy" target="_blank">Barraca Cabumba</a> (Opção na Praia do Futuro)</li>
-                <li><a href="https://instagram.com/cozinha.lamarca?igshid=YTQwZjQ0NmI0OA==" target="_blank">Cozinha Lamarca</a></li>
-                <li><a href="https://www.instagram.com/raizcozinhabrasileira?igsh=MXQzbWplazhzbzk1bg==" target="_blank">Raiz</a></li>
-                <li><a href="https://www.instagram.com/mardelimarestaurante?igsh=MTdyeWRnazl4cGt3bw==">Mar de Lima</a></li> 
-                <li><a href="https://www.instagram.com/obrutaflor?igsh=MWR0M3lsZHFoMG5saw==">Bruta Flor</a></li>
-                <li><a href="https://www.instagram.com/piteucasacriativa?igsh=MXVycG81OW0xa3o3Zw==">Pitéu</a></li>
-                <li><a href="https://www.instagram.com/lavieverdesaudavel?igsh=c2NhMTZzZ2RnYjZn">La Vie Verde</a></li>
-                <li><a href="https://www.instagram.com/panelinhasfortalezace?igsh=Z2hmYWY2bTluOGp1">Panelinhas do Brasil</a> (Opção no Del Paseo)</li>
-                <li><a href="https://instagram.com/aquitanda_ce?igshid=YTQwZjQ0NmI0OA==">A Quitanda</a></li>
-                <li><a href="https://instagram.com/paris6fortaleza_oficial?igshid=YTQwZjQ0NmI0OA==">Paris 6</a></li>
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Risoto!</h2>
-            <ul>
-                <li><a href="https://instagram.com/casabearestaurante?igshid=MzRlODBiNWFlZA==" target="_blank">Casa Beá</a></li>
-                <li><a href="https://www.instagram.com/hortalicia?igsh=ZTJsNXFtNWd2OXdr" target="_blank">Hortalícia</a></li> 
-                <li><a href="https://www.instagram.com/obrutaflor?igsh=MWR0M3lsZHFoMG5saw==">Bruta Flor</a></li>
-                <li><a href="https://instagram.com/pastificiogrigoline?igshid=MzRlODBiNWFlZA==" target="_blank">Pastifício Grigoline</a></li>
-                <li><a href="https://www.instagram.com/joa.ristobar?igsh=cDc5NHlhbGl4dnBl" target="_blank">Joá</a></li>
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Feijoada!</h2>
-            <ul>
-                <li><a href="https://www.instagram.com/barracacabumba?igsh=NWZnY3ZnbmR5MnUy" target="_blank">Barraca Cabumba</a> (Opção na Praia do Futuro)</li>
-                <li><a href="https://instagram.com/casapatua?igshid=MzRlODBiNWFlZA==" target="_blank">Casa Patuá</a></li>
-                <li><a href="https://instagram.com/forneriadapraia?igshid=YTQwZjQ0NmI0OA==">Forneria da Praia</a></li> 
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Batata Recheada!</h2>
-            <ul>
-                <li><a href="https://www.instagram.com/potzpotato?igsh=MThkbjl6azJ5ZXJuNA==">Potz</a></li> 
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Salada!</h2>
-            <ul>
-                <li><a href="https://www.instagram.com/cozinha.lamarca?igsh=bHQ0d2hlMWR2OTln" target="_blank">Cozinha Lamarca</a></li>
-                <li><a href="https://www.instagram.com/cacao.fresh?igsh=c28xc2Q5Zmkxb2tt">Cacao Fresh</a>(Opção no Iguatemi)</li>
-                <li><a href="https://instagram.com/verdelimarestaurante?igshid=MzRlODBiNWFlZA==">Verdelima</a></li>
-                <li><a href="https://instagram.com/saladeria?igshid=YTQwZjQ0NmI0OA==" target="_blank">Saladeria</a></li>
-                <li><a href="https://www.instagram.com/atelier1913?igsh=NjR5NnhkZmhjZDV3" target="_blank">Atelier 1913</a></li>
-                <li><a href="https://www.instagram.com/sooveggiebr?igsh=MWtnaGUyZHl6NDBo">SooVeggie</a></li> 
-                <li><a href="https://instagram.com/soodelibr?igshid=YTQwZjQ0NmI0OA==">Soodeli</a></li> 
-                <li><a href="https://instagram.com/sevensalads.ce?igshid=YTQwZjQ0NmI0OA==">Seven Salads</a></li>
-                <li><a href="https://www.instagram.com/restaurante_vitae?igsh=emVtd2s1Mjh2dXht">Vitaê</a></li>
-                <li><a href="https://www.instagram.com/soulfitjuicebar?igsh=MWprOWhlOHZ6NGdhZw==">Soul Fit Juice Bar</a></li>
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Bruschetta!</h2>
-            <ul>
-                <li><a href="https://instagram.com/paineartesanal?igshid=MzRlODBiNWFlZA==" target="_blank">Pâine</a></li>
-                <li><a href="https://www.instagram.com/amotorracafe?igsh=OTQxc3pwdzRwcWpi">Torra</a></li>
-                <li><a href="https://www.instagram.com/lapastagiallafortaleza?igsh=cWd5OGM5OGR1b240" target="_blank">La Pasta Gialla</a></li>
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Comida Mexicana!</h2>
-            <ul>
-                <li><a href="https://www.instagram.com/labandolerafortaleza?igsh=ZHI4cTU4cDdianUy">La Bandolera</a></li>
-                <li><a href="https://www.instagram.com/mexburritosbr?igsh=NXpvOWYzc295YWY0" target="_blank">Mex Burritos</a> (Opção no Iguatemi)</li>   
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Comida Árabe!</h2>
-            <ul>
-                <li><a href="https://www.instagram.com/lazizarabicfood?igsh=MWM2aGU3MWgxOGx4dg==">Laziz Arabic Food</a></li>
-                <li><a href="https://www.instagram.com/comidaarabefortaleza?igsh=MWJpYWcza3RwM29kZw==" target="_blank">Comida Árabe Fortaleza</a></li>
-                <li><a href="https://www.instagram.com/zahlemezze?igsh=ZjluMzdwYjh4MnZ1" target="_blank">Zahlé Mezze</a></li>  
-                <li><a href="https://www.instagram.com/olimporestaurante_?igsh=d2E5Z21kdmhtMWZ4" target="_blank">Olimpo</a></li>  
-            </ul>
-        </div>
-        <div class="lojas">
-            <h2>Self Service!</h2>
-            <ul>
-                <li><a href="https://instagram.com/verdelimarestaurante?igshid=MzRlODBiNWFlZA==">Verdelima</a></li>
-                <li><a href="https://instagram.com/amelieresto?igshid=MzRlODBiNWFlZA==" target="_blank">Amelie Restô</a></li>   
-            </ul>
-        </div>
+    <main>
+      <p>
+        Nesta sessão listei, por categoria de comida, alguns estabelecimentos
+        veganos e não veganos, que oferecem opções vegetarianas no cardápio.
+      </p>
+      <p>
+        Seja direcionado(a) ao Instagram da loja, ao clicar em cima do nome do
+        estabelecimento.
+      </p>
+      <div class="lojas">
+        <h2>Pizza & Calzone!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://instagram.com/bike_vegan?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Bike Vegan</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/yognbake?igsh=MWV2OTNleXJ0M2o1Yg=="
+              target="_blank"
+              >Yog'n'Bake</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/forneriagaspar?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Forneria Gaspar</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/afranio_napoletanpizza?igshid=YTQwZjQ0NmI0OA=="
+              target="_blank"
+              >Afranio's Napoletan</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/unapastaoficial?igsh=MTBnOTFldXg0MDR4cA=="
+              target="_blank"
+              >Una Pasta</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/pachamamacultural?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Pachamama</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/emnomedapizza?igsh=bjk5b2U4bzYyZnhw"
+              target="_blank"
+              >Em Nome da Pizza</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/lafioritapizza?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >La Fiorita</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/govegandelivery?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >GoVegan</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/lajehead?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Laje Head</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/vignolioficial?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Vignoli</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/fornomorosi?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Morosi</a
+            >
+            (Opção no RioMar)
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/dorearcacau?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Dorear</a
+            >
+            (Opção no RioMar)
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/phasprodutosnaturais?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Phas</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/nalu_pizzas?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Nalu</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/ilcapopizza?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Il Capo</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/mattarellopizza?igsh=MXJ5ZTVyZjhiYTcxNQ=="
+              target="_blank"
+              >Mattarello Pizza</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/minikalzone?igsh=cHBoZXU4ZXoyazRr"
+              target="_blank"
+              >Mini Kalzone</a
+            >
+            (Tem em vários shoppings)
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Sushi & Comida Oriental!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://instagram.com/makisushibar?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Maki Sushi</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/sushi.vibe?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Casa Sushi Vibe</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/restauranteryori?igsh=eWJlbXFrZWYxdWlv"
+              target="_blank"
+              >Ryori</a
+            >
+            (Opção no Iguatemi)
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/chinatownfortaleza?igshid=MWs3aHI3bDg0bThqbw=="
+              target="_blank"
+              >Chinatown</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/yakiway?igsh=MXJ5bGViamljNzJtNA=="
+              target="_blank"
+              >Yaki Way</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/casaryusushi?igsh=MTk0a3BpMHFtcjlreQ=="
+              target="_blank"
+              >Ryu</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/kofuku.br?igsh=bG81cHB4MmY3bWl1"
+              target="_blank"
+              >Kofuku</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Poke!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://www.instagram.com/bowlifood?igsh=dzNreW03Y29qeTg4"
+              target="_blank"
+              >Bowli Food</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/mahalopoke?igsh=MTZ1aWszZDJidWFqbg=="
+              target="_blank"
+              >Mahalo Poke</a
+            >
+            (Opção no Iguatemi e RioMar)
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/yakiway?igsh=MXJ5bGViamljNzJtNA=="
+              target="_blank"
+              >Yaki Way</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Not dog!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://instagram.com/bike_vegan?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Bike Vegan</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/cafecultive?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Café Cultive</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/heyjoefoodnbar?igsh=MXZkdmc3c3pnajE3OA=="
+              target="_blank"
+              >Hey Joe</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Lasanha!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://instagram.com/pachamamacultural?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Pachamama</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/fornomorosi?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Morosi</a
+            >
+            (Opção no RioMar)
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/pastificiogrigoline?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Pastifício Grigoline</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/hortalicia?igsh=ZTJsNXFtNWd2OXdr"
+              target="_blank"
+              >Hortalícia</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Massa!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://www.instagram.com/casulogastrobar?igsh=MWw2d2ZkN2R2YWJiYw=="
+              target="_blank"
+              >Casulo</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/tipo.cafe?igshid=YTQwZjQ0NmI0OA=="
+              target="_blank"
+              >Tipo Café</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/casabearestaurante?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Casa Beá</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/cozinhamamma_lu?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Cozinha da Mamma Lu</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/pastificiogrigoline?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Pastifício Grigoline</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/vemquetamassa?igshid=YTQwZjQ0NmI0OA=="
+              target="_blank"
+              >Tá Massa</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/nomarderosas?igshid=YTQwZjQ0NmI0OA=="
+              target="_blank"
+              >Mar de Rosas</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/raizcozinhabrasileira?igsh=MXQzbWplazhzbzk1bg=="
+              target="_blank"
+              >Raiz</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/massadocheff_delivery?igsh=MTZ6MnBnNmk2azVrMw=="
+              target="_blank"
+              >Massa do Cheff</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/cafeteriaclubcafe?igsh=MW0zaWx5YjZjYTFwOQ=="
+              target="_blank"
+              >Club Café</a
+            >
+            (Iguatemi, RioMar e aeroporto)
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/spoleto_oficial?igsh=ZTl4NWl5a29vNnFu"
+              target="_blank"
+              >Spoleto</a
+            >
+            (Tem em vários shoppings)
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Pastel!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://instagram.com/govegandelivery?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >GoVegan</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/_sampastel?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Sampastel</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/pastelleoficial?igsh=em5tYXQ5bHJiMXR5"
+              target="_blank"
+              >Pastelle</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/guanabarapastelaria?igsh=YmI2NzVzc2k0dmEz"
+              target="_blank"
+              >Guanabara Pastelaria</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Coxinha!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://instagram.com/rangoverdeveg?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Rango Verde</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/bike_vegan?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Bike Vegan</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/lifecoxinharia?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Life Coxinharia</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/dorearcacau?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Dorear</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/amordecafe_?igsh=bnBidTB2MDEyejdt"
+              target="_blank"
+              >Amor de Café</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/sucrebrasil?igsh=dHYzNmVsc3J0NGNi"
+              target="_blank"
+              >Sucré</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Acarajé!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://instagram.com/malaguetta_restaurante_vegano?igshid=MzRlODBiNWFlZA=="
+              >Malaguetta</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/acarajedamanu?igshid=MzRlODBiNWFlZA=="
+              >Acarajé da Manu</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/acaraje_e_cia?igshid=MzRlODBiNWFlZA=="
+              >Acarajé & Cia</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/acaraje_da_adriana?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Acarajé da Adriana</a
+            >
+            (Opção na Beira Mar)
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Hamburguer!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://www.instagram.com/xbloom_iguatemibosque?igsh=bjR0dzljYzQycHMy"
+              >XBloom</a
+            >
+            (Opção no Iguatemi)
+          </li>
+          <li>
+            <a href="https://instagram.com/bike_vegan?igshid=MzRlODBiNWFlZA=="
+              >Bike Vegan</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/lajehead?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Laje Haed</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/govegandelivery?igshid=MzRlODBiNWFlZA=="
+              >GoVegan</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/pachamamacultural?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Pachamama</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/garagemburguerbar?igshid=MzRlODBiNWFlZA=="
+              >Garagem Burguer Bar</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/vaniaburgers?igshid=YTQwZjQ0NmI0OA=="
+              target="_blank"
+              >Vânia Burgers</a
+            >
+            (Opção no Dragão do Mar)
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/corafortaleza?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Cora</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/owlbeerpub?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Owl Beer Pub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/orbitabluebar?igsh=MWN2emU3azZqejJ2cQ=="
+              target="_blank"
+              >Órbita Blue</a
+            >
+            (Opção na Praia do Futuro)
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/heyjoefoodnbar?igsh=MXZkdmc3c3pnajE3OA=="
+              target="_blank"
+              >Hey Joe</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Sanduíche & Wrap!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://www.instagram.com/cozinha.lamarca?igsh=bHQ0d2hlMWR2OTln"
+              target="_blank"
+              >Cozinha Lamarca</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/ventanaroseletejada?igsh=MTYzNzZxeHNzYms3bA=="
+              target="_blank"
+              >Ventana</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/tipo.cafe?igshid=YTQwZjQ0NmI0OA=="
+              target="_blank"
+              >Tipo Café</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/subwaybrasil?igsh=MXVsMGdidjdieTdlNw=="
+              target="_blank"
+              >Subway</a
+            >
+            (Tem em vários shoppings)
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/restaurante_vitae?igsh=emVtd2s1Mjh2dXht"
+              >Vitaê</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/maju_comidasaudavel?igsh=MWlsa3kweTVidnozaw=="
+              >Maju</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Petiscos!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://instagram.com/pachamamacultural?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Pachamama</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/lajehead?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Laje Haed</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/cozinha.lamarca?igsh=bHQ0d2hlMWR2OTln"
+              target="_blank"
+              >Cozinha Lamarca</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/tipo.cafe?igshid=YTQwZjQ0NmI0OA=="
+              target="_blank"
+              >Tipo Café</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/verduracozinha?igshid=YTQwZjQ0NmI0OA=="
+              target="_blank"
+              >Verdura Cozinha</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/cravoecanelagastrobar?igshid=MzRlODBiNWFlZA=="
+              >Cravo & Canela Gastrobar</a
+            >
+            (Opção no Mercado dos Pinhões)
+          </li>
+          <li>
+            <a href="https://instagram.com/aquitanda_ce?igshid=MzRlODBiNWFlZA=="
+              >A Quitanda</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/garagemburguerbar?igshid=MzRlODBiNWFlZA=="
+              >Garagem Burguer Bar</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/casapatua?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Casa Patuá</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/owlbeerpub?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Owl Beer Pub</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/barracacabumba?igsh=NWZnY3ZnbmR5MnUy"
+              target="_blank"
+              >Barraca Cabumba</a
+            >
+            (Opção na Praia do Futuro)
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Strogonoff!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://instagram.com/verduracozinha?igshid=YTQwZjQ0NmI0OA=="
+              target="_blank"
+              >Verdura Cozinha</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/nusse.cafe?igshid=YTQwZjQ0NmI0OA=="
+              target="_blank"
+              >Nüsse</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/brasileirinhodelivery?igshid=YTQwZjQ0NmI0OA=="
+              >Brasileirinho Delivery</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Moqueca!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://www.instagram.com/barracacabumba?igsh=NWZnY3ZnbmR5MnUy"
+              target="_blank"
+              >Barraca Cabumba</a
+            >
+            (Opção na Praia do Futuro)
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/cozinha.lamarca?igshid=YTQwZjQ0NmI0OA=="
+              target="_blank"
+              >Cozinha Lamarca</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/raizcozinhabrasileira?igsh=MXQzbWplazhzbzk1bg=="
+              target="_blank"
+              >Raiz</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/mardelimarestaurante?igsh=MTdyeWRnazl4cGt3bw=="
+              >Mar de Lima</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/obrutaflor?igsh=MWR0M3lsZHFoMG5saw=="
+              >Bruta Flor</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/piteucasacriativa?igsh=MXVycG81OW0xa3o3Zw=="
+              >Pitéu</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/lavieverdesaudavel?igsh=c2NhMTZzZ2RnYjZn"
+              >La Vie Verde</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/panelinhasfortalezace?igsh=Z2hmYWY2bTluOGp1"
+              >Panelinhas do Brasil</a
+            >
+            (Opção no Del Paseo)
+          </li>
+          <li>
+            <a href="https://instagram.com/aquitanda_ce?igshid=YTQwZjQ0NmI0OA=="
+              >A Quitanda</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/paris6fortaleza_oficial?igshid=YTQwZjQ0NmI0OA=="
+              >Paris 6</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Risoto!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://instagram.com/casabearestaurante?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Casa Beá</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/hortalicia?igsh=ZTJsNXFtNWd2OXdr"
+              target="_blank"
+              >Hortalícia</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/obrutaflor?igsh=MWR0M3lsZHFoMG5saw=="
+              >Bruta Flor</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/pastificiogrigoline?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Pastifício Grigoline</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/joa.ristobar?igsh=cDc5NHlhbGl4dnBl"
+              target="_blank"
+              >Joá</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Feijoada!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://www.instagram.com/barracacabumba?igsh=NWZnY3ZnbmR5MnUy"
+              target="_blank"
+              >Barraca Cabumba</a
+            >
+            (Opção na Praia do Futuro)
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/casapatua?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Casa Patuá</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/forneriadapraia?igshid=YTQwZjQ0NmI0OA=="
+              >Forneria da Praia</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Batata Recheada!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://www.instagram.com/potzpotato?igsh=MThkbjl6azJ5ZXJuNA=="
+              >Potz</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Salada!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://www.instagram.com/cozinha.lamarca?igsh=bHQ0d2hlMWR2OTln"
+              target="_blank"
+              >Cozinha Lamarca</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/cacao.fresh?igsh=c28xc2Q5Zmkxb2tt"
+              >Cacao Fresh</a
+            >(Opção no Iguatemi)
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/verdelimarestaurante?igshid=MzRlODBiNWFlZA=="
+              >Verdelima</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/saladeria?igshid=YTQwZjQ0NmI0OA=="
+              target="_blank"
+              >Saladeria</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/atelier1913?igsh=NjR5NnhkZmhjZDV3"
+              target="_blank"
+              >Atelier 1913</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/sooveggiebr?igsh=MWtnaGUyZHl6NDBo"
+              >SooVeggie</a
+            >
+          </li>
+          <li>
+            <a href="https://instagram.com/soodelibr?igshid=YTQwZjQ0NmI0OA=="
+              >Soodeli</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/sevensalads.ce?igshid=YTQwZjQ0NmI0OA=="
+              >Seven Salads</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/restaurante_vitae?igsh=emVtd2s1Mjh2dXht"
+              >Vitaê</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/soulfitjuicebar?igsh=MWprOWhlOHZ6NGdhZw=="
+              >Soul Fit Juice Bar</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Bruschetta!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://instagram.com/paineartesanal?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Pâine</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/amotorracafe?igsh=OTQxc3pwdzRwcWpi"
+              >Torra</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/lapastagiallafortaleza?igsh=cWd5OGM5OGR1b240"
+              target="_blank"
+              >La Pasta Gialla</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Comida Mexicana!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://www.instagram.com/labandolerafortaleza?igsh=ZHI4cTU4cDdianUy"
+              >La Bandolera</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/mexburritosbr?igsh=NXpvOWYzc295YWY0"
+              target="_blank"
+              >Mex Burritos</a
+            >
+            (Opção no Iguatemi)
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Comida Árabe!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://www.instagram.com/lazizarabicfood?igsh=MWM2aGU3MWgxOGx4dg=="
+              >Laziz Arabic Food</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/comidaarabefortaleza?igsh=MWJpYWcza3RwM29kZw=="
+              target="_blank"
+              >Comida Árabe Fortaleza</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/zahlemezze?igsh=ZjluMzdwYjh4MnZ1"
+              target="_blank"
+              >Zahlé Mezze</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/olimporestaurante_?igsh=d2E5Z21kdmhtMWZ4"
+              target="_blank"
+              >Olimpo</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="lojas">
+        <h2>Self Service!</h2>
+        <ul>
+          <li>
+            <a
+              href="https://instagram.com/verdelimarestaurante?igshid=MzRlODBiNWFlZA=="
+              >Verdelima</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://instagram.com/amelieresto?igshid=MzRlODBiNWFlZA=="
+              target="_blank"
+              >Amelie Restô</a
+            >
+          </li>
+        </ul>
+      </div>
     </main>
-    
+
     <script>
-        function clickMenu() {
-                if (menu.style.display == 'block') {
-                    menu.style.display = 'none'
-                } else {
-                    menu.style.display = 'block'
-                }
+      function clickMenu() {
+        if (menu.style.display == 'block') {
+          menu.style.display = 'none';
+        } else {
+          menu.style.display = 'block';
         }
+      }
     </script>
 
     <footer>
-        <p>Desenvolvido por Flávia Reis. Fortaleza, Ceará - 2023</p>
+      <p>Desenvolvido por Flávia Reis. Fortaleza, Ceará - 2023</p>
     </footer>
-</body>
+  </body>
 </html>
