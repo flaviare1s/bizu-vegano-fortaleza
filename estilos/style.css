@@ -119,7 +119,7 @@ main {
     text-align: justify;
 }
 
-main > section > h2 {
+.diferencas > h2 {
     font-family: var(--fonte-destaque);
     font-size: 2em;
     color: var(--cor0);
@@ -129,7 +129,7 @@ main > section > h2 {
     margin-bottom: 20px;
 }
 
-main > section > p {
+.diferencas > p {
     font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 15px;

@@ -94,7 +94,7 @@ main > p {
     padding: 10px;
 }
 
-div.lojas {
+section.lojas {
     background-color: #8fcc6cb7;
     padding: 10px;
     border: 2px solid var(--cor1);
@@ -102,34 +102,34 @@ div.lojas {
     margin-bottom: 20px;
 }
 
-div.lojas > h3 {
+section.lojas > h3 {
     text-align: center;
     padding: 5px;
 }
 
-div.lojas > h2 {
+section.lojas > h2 {
     font-family: var(--fonte-destaque);
     text-align: center;
     padding: 5px;
 }
 
-div.lojas > p {
+section.lojas > p {
     line-height: 1.2em;
     padding: 5px;
 }
 
-div.lojas a {
+section.lojas a {
     text-decoration: none;
     color: black;
     font-weight: bolder;
 }
 
-div.lojas li {
+section.lojas li {
     list-style-type: none;
     line-height: 1.5em;
 }
 
-div.lojas a:hover {
+section.lojas a:hover {
     text-decoration: underline;
     font-weight: normal;
 }
