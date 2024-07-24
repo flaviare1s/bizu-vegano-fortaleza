@@ -1,9 +1,6 @@
 # Bizu Vegano Fortaleza
 
-Desenvolvi este projeto no meu primeiro mês de estudos em tecnologia.
-É um site simples, utilizando apenas HTML, CSS e JavaScript básicos. 
-Combinei o útil ao agradável, colocando em prática meus estudos iniciais e mapeando os restaurantes vegetarianos na cidade de Fortaleza.
-O objetivo é fornecer um serviço útil e informativo para vegetarianos e simpatizantes, ajudando-os a encontrar bons lugares para comer.
+Desenvolvi este projeto durante meu primeiro mês de estudos em HTML e CSS. Optei por aplicar meus novos conhecimentos na prática, contribuindo para a divulgação dos estabelecimentos vegetarianos na cidade de Fortaleza. O site é bastante simples, uma vez que eu estava apenas começando na área da tecnologia quando o criei, mas tenho planos de reformulá-lo no futuro. Mantenho uma atualização constante para garantir a continuidade da divulgação.
 
 ## Sobre o Projeto
 
