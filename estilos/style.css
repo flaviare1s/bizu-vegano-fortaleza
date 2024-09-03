@@ -141,3 +141,67 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+.modal h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal h3 {
+    text-align: center;
+    margin: 20px 0;
+    color: red;
+}
+
+.modal p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.modal a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #41801D;
+}
+
+.modal a:hover {
+    text-decoration: underline;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

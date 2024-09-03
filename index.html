@@ -10,11 +10,24 @@
     <link rel="stylesheet" href="estilos/style.css" media="all">
     <link rel="stylesheet" href="estilos/media-queries.css">
 
+    <script src="script.js" defer></script>
+
     <meta name="description" content="Guia vegano de Fortaleza">
     <meta name="keywords" content="vegano, fortaleza, veganismo, vegetarianismo, dicas">
 </head>
 
-<body onresize="mudouTamanho">
+<body>
+
+    <div id="updateModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Site Atualizado</h2>
+            <hr>
+            <h3>Atenção!!!</h3>
+            <p>O endereço do nosso site mudou!</p>
+            <p>Acesse o novo site <a href="https://bizu-vegano.web.app/">clicando aqui</a>.</p>
+        </div>
+    </div>    
 
     <header>
         <div class="header-container">
@@ -71,24 +84,6 @@
             <p style="text-align: center;">Se alimente conscientemente!</p>
         </section>
     </main>
-
-    <script>
-        /*function mudouTamanho() {
-            if (window.innerWidth >= 768) {
-                menu.style.display = 'block'
-            } else {
-                menu.style.display = 'none'
-            }
-        }*/
-
-        function clickMenu() {
-            if (menu.style.display == 'block') {
-                menu.style.display = 'none'
-            } else {
-                menu.style.display = 'block'
-            }
-        }
-    </script>
 
     <footer>
         <p>Desenvolvido por Flávia Reis.</p>
